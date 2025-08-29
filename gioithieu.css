@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+.profile-card {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+  color: white;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 15px;
+}
+.subtitle {
+  font-size: 1.1em;
+  opacity: 0.9;
+}
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.card h2 {
+  margin-top: 0;
+  color: #0984e3;
+}
+.contact a {
+  color: #0984e3;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  padding: 6px 0;
+  position: relative;
+}
+
+ul li::before {
+  content: "✔";
+  color: #0984e3;
+  margin-right: 8px;
+}
